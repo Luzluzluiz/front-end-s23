@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Site Simples</title>
+</head>
+<link rel="stylesheet" href="indexcss.css">
+
+<body>
+  <header>
+    <h1>Clash Royale</h1>
+    <nav>
+      <a href="#">Início</a> 
+      <a href="#">Cartas</a> 
+      <a href="#contato">Gemas Gratis!</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>Bem-vindo ao Clash Royale!</h2>
+      <p>Este é um site extremamente informativo, feito para te fazer desistir de jogar isso.</p>
+    </section>
+
+    <section id="Cartas">
+      <h2>Cartas</h2>
+      <p>A carta mais balanceada é o MegaKnight, dito isso, nerf miner.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Gemas Gratis!!!!</h2>
+      <form onsubmit="handleForm(event)">
+        <label>Numero do cartão:</label><br />
+        <input type="text" placeholder="Seu nome" required /><br /><br />
+        <label>Seu email:</label><br />
+        <input type="email" placeholder="Seu e-mail" required /><br /><br />
+        <label>Seu IP:</label><br />
+        <textarea placeholder="Escreva aqui" required></textarea><br /><br />
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>num faz sentido.</p>
+  </footer>
+
+  <script>
+    function handleForm(e){
+      e.preventDefault();
+      alert('Formulário enviado (simulação).');
+      e.target.reset();
+    }
+  </script>
+</body>
+</html>

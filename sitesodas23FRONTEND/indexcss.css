@@ -1,0 +1,104 @@
+/* ======== CLASH ROYALE STYLE ======== */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #2b6cb0, #1a365d);
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* ======== HEADER ======== */
+  header {
+    background: #1e3a8a;
+    padding: 20px 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #facc15; /* amarelo ouro */
+    text-shadow: 2px 2px 0 #000;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+    font-weight: bold;
+    background: #2563eb;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 2px solid #1e40af;
+    transition: 0.2s;
+  }
+  
+  nav a:hover {
+    background: #3b82f6;
+  }
+  
+  /* ======== SEÇÕES ======== */
+  main {
+    padding: 30px 10px;
+  }
+  
+  section {
+    background: rgba(255,255,255,0.1);
+    border: 2px solid rgba(255,255,255,0.2);
+    border-radius: 12px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 700px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  }
+  
+  h2 {
+    color: #fbbf24;
+    text-shadow: 1px 1px 2px #000;
+  }
+  
+  /* ======== FORM ======== */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #1e3a8a;
+    border-radius: 8px;
+    font-size: 1em;
+  }
+  
+  button {
+    background: #facc15;
+    color: #1e3a8a;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    background: #fde047;
+  }
+  
+  /* ======== FOOTER ======== */
+  footer {
+    background: #1e3a8a;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 2px solid #facc15;
+  }
+  
